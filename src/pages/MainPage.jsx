@@ -1,9 +1,12 @@
 import React from "react";
+import Welcome from "../components/Welcome/Welcome";
+import Advantage from "../components/Advantage/Advantage";
 
 const MainPage = () => {
   return (
     <div>
-      <h2>MAIN PAGE</h2>
+      <Welcome />
+      <Advantage />
     </div>
   );
 };

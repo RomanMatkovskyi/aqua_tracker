@@ -1,7 +1,11 @@
-import React from "react";
+import DailyNorma from "../components/DailyNorma/DailyNorma";
 
 const Home = () => {
-  return <div>HOME</div>;
+  return (
+    <div>
+      <DailyNorma />
+    </div>
+  );
 };
 
 export default Home;
